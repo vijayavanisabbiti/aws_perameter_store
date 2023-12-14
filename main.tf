@@ -7,8 +7,7 @@ terraform {
 }
 
 variable "parameters" {
-  default =
-    { name = "test", type = "string", value = "test"}
+  default = { name = "test", type = "string", value = "test"}
 }
 resource "aws_ssm_parameter" "params" {
   count = length(var.parameters)
