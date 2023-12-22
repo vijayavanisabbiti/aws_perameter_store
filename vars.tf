@@ -1,7 +1,7 @@
 variable "parameters" {
   default = [
     { name = "backend.dev.DB_HOST", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
-    { name = "backend.dev.DB_USER", type = "String", value = "centos" },
+
     { name = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://backend-dev.vijayavanimanju.online:8080/" },
 
     ## RDS
