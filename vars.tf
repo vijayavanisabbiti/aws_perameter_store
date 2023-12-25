@@ -1,7 +1,7 @@
 variable "parameters" {
   default = [
     { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
-    { name = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "internal-dev-backend-1528080409.us-east-1.elb.amazonaws.com/" },
+    { name = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-1528080409.us-east-1.elb.amazonaws.com/" },
 
     ## RDS
     { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
