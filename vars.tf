@@ -4,6 +4,7 @@ variable "parameters" {
     { name = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-56968189.us-east-1.elb.amazonaws.com/" },
     { name = "ssh.username", type = "String", value = "root"},
     { name = "artifactory.username", type = "String", value = "admin"},
+    { name = "dev.backend.app_version", type = "String", value = "1.4.0"},
 
 
     ## RDS
