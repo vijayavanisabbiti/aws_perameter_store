@@ -13,7 +13,6 @@ variable "parameters" {
     "ssh.username"            = { name = "ssh.username", type = "String", value = "root" },
     "artifactory.username"    = { name = "artifactory.username", type = "String", value = "admin" },
 
-
     ## RDS
     "dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
     "dev.rds.username" = { name = "dev.rds.username", type = "String", value = "admin1" },
