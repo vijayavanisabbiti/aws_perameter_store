@@ -4,8 +4,6 @@ variable "parameters" {
     { name = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-1528080409.us-east-1.elb.amazonaws.com/" },
 
 
-    { name = "artifactory.username", type = "String", value = "admin" },
-
     ## RDS
     { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
     { name = "dev.rds.username", type = "String", value = "admin1" },
