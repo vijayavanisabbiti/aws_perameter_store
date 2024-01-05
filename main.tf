@@ -13,5 +13,4 @@ resource "aws_ssm_parameter" "params" {
   type  = var.parameters[count.index].type
   value = var.parameters[count.index].value
   overwrite = true
-
 }
