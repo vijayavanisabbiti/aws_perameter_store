@@ -5,6 +5,7 @@ variable "parameters" {
     "ssh.username"            = { name = "ssh.username", type = "String", value = "root" },
     "artifactory.username"    = { name = "artifactory.username", type = "String", value = "admin" },
     "dev.backend.app_version" = { name = "dev.backend.app_version", type = "String", value = "1.4.0" },
+    "dev.frontend.app_version" = { name = "dev.frontend.app_version", type = "String", value = "1.4.0" },
 
 
     ## RDS
