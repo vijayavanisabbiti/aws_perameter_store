@@ -1,11 +1,11 @@
 variable "parameters" {
   default = {
     "dev.backend.DB_HOST" = { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
-    "frontend.dev.BACKEND_ENDPOINT" = { name  = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-56968189.us-east-1.elb.amazonaws.com/" },
+    "frontend.dev.BACKEND_ENDPOINT" = { name  = "frontend.dev.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-976707591.us-east-1.elb.amazonaws.com/" },
     "dev.backend.app_version" = { name = "dev.backend.app_version", type = "String", value = "1.4.0" },
     "dev.frontend.app_version" = { name = "dev.frontend.app_version", type = "String", value = "1.4.0" },
     "prod.backend.DB_HOST" = { name = "prod.backend.DB_HOST", type = "String", value = "prod-mysql-rds.c21qj8xqyfw1.us-east-1.rds.amazonaws.com" },
-    "frontend.prod.BACKEND_ENDPOINT" = { name  = "frontend.prod.BACKEND_ENDPOINT", type = "String", value = "http://internal-prod-backend-56968189.us-east-1.elb.amazonaws.com/" },
+    "frontend.prod.BACKEND_ENDPOINT" = { name  = "frontend.prod.BACKEND_ENDPOINT", type = "String", value = "http://internal-prod-backend-976707591.us-east-1.elb.amazonaws.com/" },
     "prod.backend.app_version" = { name = "prod.backend.app_version", type = "String", value = "1.4.0" },
     "prod.frontend.app_version" = { name = "prod.frontend.app_version", type = "String", value = "1.4.0" },
 
